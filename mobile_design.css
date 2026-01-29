@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    
+
+}
+/* constants classes */
+header .desktop_nav{
+    display: none;
+}
+main .content_tools .editor_img_desktop{
+    display: none;
+
+}
+/* header section */
+header {
+
+
+    width: 100%;
+    
+    background-color: hsl(356, 100%, 66%);
+    
+    background: linear-gradient(to bottom, hsla(13, 100%, 72%, 0.705), hsla(353, 100%, 62%, 0.925)), url("images/bg-pattern-intro-mobile.svg");
+    
+    background-position: 40% 40%; 
+    background-size: 400%; 
+    border-bottom-left-radius: 100px;
+    text-align: center;
+    padding-bottom: 40%;
+    
+
+
+
+}
+
+
+
+h1{
+    
+    margin: auto;
+    margin-top: 20%;
+    color: white;
+    font-size: 2em;
+    font-weight:700;
+
+}
+h1+p{
+    width: 23ch;
+    margin: auto;
+    margin-top: 7%;
+    color: hsla(0, 0%, 100%, 0.664);
+    font-size: 1.3em;
+    font-weight:0;
+    margin-top: 3%;
+}
+header .mobile_nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    padding: 20px;
+    padding-top: 15%;
+
+
+    
+    
+}
+header .mobile_nav img{
+    width: 9%;
+}
+header .mobile_nav .logo{
+    width: 23%;
+
+}
+header .header_btn{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+header .header_btn button{
+    /* padding: 15px 25px; */
+    padding: 4% 5%;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+header .header_btn .started_btn{
+    color: hsla(353, 100%, 62%, 0.925);
+}
+header .header_btn .started_btn:hover{
+    background-color: hsl(355, 86%, 79%);
+    color: white;
+}
+header .header_btn .learn_btn{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+header .header_btn .learn_btn:hover{
+    background-color: white;
+    color: hsla(353, 100%, 62%, 0.925);
+}
+
+
+/* content_tools section */
+
+main .content_tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+
+}
+
+main .content_tools h2,h3{
+    color:hsl(237, 23%, 31%) ;
+    font-weight: 800;
+}
+main .content_tools h2  {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 11% 0;
+}
+
+main .content_tools img{
+    width: 100%;
+}
+main .content_tools .describe_tools{
+    margin-top: 10%;
+    width: 80%;
+
+}
+main .content_tools .describe_tools h3{
+    font-size: 2em;
+    
+    
+}
+main .content_tools .describe_tools p{
+    color:hsl(207, 13%, 34%);
+    font-size: 1.1em;
+    margin-top: 5%;
+    line-height: 1.6;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+
+
+/* state_art section */
+main .state_art{
+    background-color: hsl(237, 23%, 31%);
+    background-image: url('images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: center -273%;
+    background-size: 134%;
+    border-radius: 0 80px 0 80px;
+    text-align: center;
+    padding-top: 49%;
+    padding-bottom: 24%;
+    position: relative;
+    margin-top: 65%;
+    
+
+}
+main .state_art img{
+    width: 97%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: -34%;
+    
+
+}
+main .state_art h2 {
+    text-align: center;
+    font-size: 2.6em;
+    color: white;
+    width: 100%;
+
+
+    margin-bottom: 4%;
+    
+}
+main .state_art p {
+    width: 29ch;
+    color: hsla(0, 0%, 100%, 0.664);
+    font-size: 1.1em;
+    margin: auto;
+
+    line-height: 1.6;
+
+}
+
+
+
+/* product_overview */
+main .product_overview  .laptop_img_desktop{
+    display: none;
+
+}
+
+
+main .product_overview{
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+main .product_overview .describe_product{
+    width: 90%;
+    text-align: center;
+}
+
+main .product_overview .describe_product h2{
+    color:hsl(237, 23%, 31%) ;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+main .product_overview .describe_product p{
+    color: hsl(207, 13%, 34%);
+    font-size: 1.1em;
+    
+    line-height: 1.6;
+    padding-bottom: 3%;
+    font-weight: 500;
+    width: 95%;
+    margin: auto;
+}
+
+/* footer */
+footer{
+    background-color:hsl(240, 10%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 100px;
+    margin-top: 15%;
+    padding: 11% 0;
+    
+}
+footer  h3 {
+    color: white;
+
+}
+footer img{
+    display: block;
+    padding-top: 7%;
+    padding-bottom: 11%;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+footer .links ul {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .links ul li a{
+    color: hsla(0, 0%, 100%, 0.664);
+    text-decoration: none;
+    
+
+}
+footer .links ul li a:hover{
+    text-decoration: underline white;
+}
