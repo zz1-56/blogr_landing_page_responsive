@@ -50,13 +50,60 @@
         display: flex;
         gap: 30px;
         list-style: none;
+        width: 30%;
+        position: relative;
     }
-    header .desktop_nav ul li a{
-        font-size: 1em;
-        font-weight: 600;
-        color: hsla(0, 0%, 100%, 0.692);
+    header .desktop_nav ul li button {
+        border: none;
+        background-color: inherit;
+        color: #FFF;
         cursor: pointer;
     }
+
+    header .desktop_nav ul li #contact:hover {
+        text-decoration: underline #FFF;
+    }
+    header .desktop_nav ul li button img{
+        transition: transform 0.3s ease;
+        margin-left: 5px;
+    }
+    header .desktop_nav .nav_links #popup {
+        background-color: white;
+        width: fit-content;
+        
+        border-radius: 5px;
+        margin-top: 20px;
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 35%;
+        box-shadow: 0px -2px 3px #6b5757fa;
+    }
+    #popup ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: left;
+        margin: 0;
+        padding: 30px 55px 18px 20px;
+    }
+    #popup ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #popup ul li a:hover{
+        text-decoration: underline
+    }
+
+
+
+
+
+
+
+
     header .desktop_nav .nav_login_btns{
         display: flex;
         align-content: center;

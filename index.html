@@ -21,9 +21,18 @@
         <nav class="desktop_nav">
             <img src="images/logo.svg" alt="Logo" class="logo">
             <ul class="nav_links">
-                <li><a href="#">Product <img src="images/icon-arrow-light.svg" alt="icon-arrow-light"></a></li>
-                <li><a href="#">Company <img src="images/icon-arrow-light.svg" alt="icon-arrow-light"></a></li>
-                <li><a href="#">Connect <img src="images/icon-arrow-light.svg" alt="icon-arrow-light"></a></li>
+                <li><button>Product <img src="images/icon-arrow-light.svg" alt="icon-arrow-light"></button></li>
+                <li><button>Company <img src="images/icon-arrow-light.svg" alt="icon-arrow-light"></button></li>
+                <li><button id="contact">Connect <img src="images/icon-arrow-light.svg" alt="icon-arrow-light" id="row"></button></li>
+
+                <div id="popup">
+                    <ul id="menu">
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Newsletter</a></li>
+                        <li><a href="">Linkedin</a></li>
+                    </ul>
+                </div>
+
             </ul>
             <div class="nav_login_btns">
                 <button class="login_btn">Login</button>
@@ -40,7 +49,6 @@
         
     </header>
     <main>
-        <!-- <h2>Designed for the future</h2> -->
         <section class="content_tools">
             <h2>Designed for the future</h2>
             <img src="images/illustration-editor-mobile.svg" alt="illustration-editor" class="editor_img_mobile">
@@ -126,6 +134,7 @@
                 <li><a href="#">Linkedin</a></li>
             </ul>
         </div>
+        <script src="script.js"></script>
     </footer>
     
 </body>
