@@ -35,6 +35,11 @@
     }
     /* --------------------------------------------- */
 
+
+    /* edit popup width */
+    #menu_mobile{
+        width: 50%;
+    }
     h1{
         font-size: 4.7ch;
         width: 100%;

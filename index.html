@@ -15,7 +15,30 @@
     <header>
         <nav class="mobile_nav">
             <img src="images/logo.svg" alt="Logo" class="logo">
-            <img src="images/icon-hamburger.svg" alt="nav_icon" class="nav_icon">
+            <button id="mobile_menu_button"><img src="images/icon-hamburger.svg" alt="nav_icon" class="nav_icon" id="humburger_image"><img src="images/icon-close.svg" alt="close" id="close_image"></button>
+            <div id="menu_mobile">
+                <ul id="menu_buttons">
+                    <li><button>Product <img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark"></button></li>
+                    <li><button>Company <img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark"></button></li>
+                    <li><button id="contact_mobile_btn">Connect <img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark" id="row"></button></li>
+
+                    
+
+                    
+                </ul>
+                <div id="popup_mobile">
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+
+                <div class="log_info">
+                    <button id="login">Login</button>
+                    <button id="sign_up">Sign Up</button>                
+                </div>
+            </div>           
         </nav>
 
         <nav class="desktop_nav">
@@ -134,8 +157,9 @@
                 <li><a href="#">Linkedin</a></li>
             </ul>
         </div>
-        <script src="script.js"></script>
+        
     </footer>
-    
+    <script src="script.js"></script>
+    <script src="script_mobile.js"></script>
 </body>
 </html>
