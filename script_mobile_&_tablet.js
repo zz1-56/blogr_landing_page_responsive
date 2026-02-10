@@ -6,7 +6,7 @@ var contact_btn = document.querySelector("#contact_mobile_btn");
 var popup_contact = document.querySelector("#popup_mobile");
 
 
-var image = document.querySelector("#contact_mobile_btn img");
+var image_row_for_mobile = document.querySelector("#contact_mobile_btn img");
 
 var humburger_image = document.querySelector("#humburger_image");
 
@@ -38,14 +38,14 @@ contact_btn.onclick = function (){
     if (popup_contact.style.visibility === 'visible'){
         popup_contact.style.visibility = 'hidden'
         contact_btn.style.color = 'hsl(208, 49%, 24%)'
-        image.style.transform = 'rotate(0deg)'
+        image_row_for_mobile.style.transform = 'rotate(0deg)'
         
     }
     else{
         popup_contact.style.visibility = 'visible'
         
         contact_btn.style.color = 'hsl(207, 13%, 34%)'
-        image.style.transform = 'rotate(180deg)'
+        image_row_for_mobile.style.transform = 'rotate(180deg)'
     }
 
         

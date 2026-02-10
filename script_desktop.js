@@ -1,4 +1,4 @@
-var image = document.querySelector("#row");
+var image = document.querySelector("#contact img");
 var navbar = document.querySelector("#popup");
 var button = document.querySelector("#contact");
 

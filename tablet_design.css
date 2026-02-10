@@ -1,5 +1,4 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-    /* constants classes */
 
     /* buttons */
     header .header_btn button{
@@ -39,6 +38,7 @@
     /* edit popup width */
     #menu_mobile{
         width: 50%;
+        top: 6%;
     }
     h1{
         font-size: 4.7ch;
